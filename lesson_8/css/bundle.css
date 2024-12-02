@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+html {
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1192px) {
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.wrapper {
+  position: relative;
+}
+
+.test2 {
+  color: #df1616;
+  font-size: 25px;
+  text-align: right;
+  line-height: 30px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.test3 {
+  color: #3b0bcc;
+  font-size: 20px;
+  text-align: left;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.main {
+  height: 100vh;
+  background-image: url(../images/image-main.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 180px;
+}
+@media (max-width: 1023px) {
+  .main {
+    height: auto;
+    padding-top: 106px;
+    padding-bottom: 60px;
+    background: #ECF4FF;
+    color: #222222;
+  }
+}
+.main h1 {
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+@media (max-width: 1023px) {
+  .main h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1023px) {
+  .main h1 {
+    font-size: 25px;
+  }
+}
+.main p {
+  font-size: 16px;
+  line-height: 155%;
+  width: 887px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 45px;
+}
+@media (max-width: 900px) {
+  .main p {
+    width: 100%;
+  }
+}
+
+.info__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  padding: 56px 88px;
+  margin-top: -48px;
+  background-color: #fff;
+}
+@media (max-width: 1023px) {
+  .info__inner {
+    margin-top: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+.info__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
