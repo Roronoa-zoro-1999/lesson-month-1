@@ -1,0 +1,17 @@
+#one {
+    color: purple;
+}
+.one {
+    color: blue;
+}
+div {
+    color: rgb(221, 177, 207) !important;
+}
+div {
+    color: yellow;
+}
+p {
+    width: 500px;
+    text-align: justify;
+    line-height: 22px;
+}
