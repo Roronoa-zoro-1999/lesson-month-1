@@ -1,0 +1,55 @@
+html {
+    font-size: 15px;
+}
+.one {
+    position: relative;
+    height: 100vh;
+    background-color: #9c5b5b;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/image-1.jpg");
+}
+.one div {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.one p {
+    padding: 5px;
+    background-color: #fff;
+    margin-top: 2rem;
+    font-size: .8rem;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*height: 250px;*/
+    background-color: orange;
+    width: 1000px;
+    margin: 50px auto;
+    column-gap: 20px;
+}
+.flexible {
+    flex: 1 0 213px;
+    height: 430px;
+    padding: 20px;
+    color: aqua;
+    background-color: indigo;
+    font-size: 25px;
+    /*height: 250px;*/
+    gap: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
