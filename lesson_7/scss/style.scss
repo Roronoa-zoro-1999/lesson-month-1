@@ -1,0 +1,71 @@
+.main {
+    height: 100vh;
+    background-image: url(../images/image-main.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+
+    h1 {
+        font-size: 56px;
+        margin-bottom: 24px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 155%;
+        width: 887px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 45px;
+    }
+}
+.info {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 56px 88px;
+        margin-top: -48px;
+        background-color: #fff;
+    }
+    &__item {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+}
+.parent {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .one {
+        width: 253px;
+        height: 253px;
+        background-color: darkblue;
+        border-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 40px;
+        //&:nth-child(5) {
+        //&:nth-of-type(odd) {
+        //&:nth-of-type(even) {
+        //&:nth-of-type(3n) {
+        &:not(.red, p :nth-of-type(9)):hover {
+            background-color: red;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
