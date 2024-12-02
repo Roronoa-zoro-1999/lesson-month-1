@@ -1,0 +1,74 @@
+.main {
+  height: 100vh;
+  background-image: url(../images/image-main.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 180px;
+}
+.main h1 {
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+.main p {
+  font-size: 16px;
+  line-height: 155%;
+  width: 887px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 45px;
+}
+
+.info__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 56px 88px;
+  margin-top: -48px;
+  background-color: #fff;
+}
+.info__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parent {
+  width: 800px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+.parent .one {
+  width: 253px;
+  height: 253px;
+  background-color: darkblue;
+  border-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 40px;
+}
+.parent .one:not(.red, p :nth-of-type(9)):hover {
+  background-color: red;
+}
