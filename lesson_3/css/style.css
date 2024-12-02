@@ -1,0 +1,50 @@
+.one {
+    width: 500px;
+    margin: 20px auto;
+    color: white;
+    border: 5px solid red;
+    background-color: deepskyblue;
+    padding: 20px;
+    border-radius: 12px;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 15px;
+}
+.parent {
+    font-size: 2em;
+}
+.parent div {
+    font-size: 2em;
+}
+.parent p {
+    font-size: 2rem;
+}
+.rel {
+    position: relative;
+    top: -400px;
+    left: -50px;
+    width: 500px;
+    height: 500px;
+    background-color: #380cd8;
+    margin: 50px auto;
+}
+.child-1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    z-index: 1;
+}
+.child-2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    height: 250px;
+    background-color: #ec09fb;
+}
